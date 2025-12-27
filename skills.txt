@@ -1,0 +1,18 @@
+python
+java
+c++
+sql
+machine learning
+deep learning
+data analysis
+cloud computing
+aws
+azure
+docker
+kubernetes
+ci cd
+react
+node js
+system design
+communication
+leadership
