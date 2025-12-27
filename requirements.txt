@@ -5,3 +5,6 @@ sentence-transformers
 scikit-learn
 pdfplumber
 python-docx
+reportlab
+matplotlib
+numpy
