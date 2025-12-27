@@ -10,10 +10,16 @@ import re
 import numpy as np
 import nltk
 import spacy
+import nltk
+import spacy
+
+# Ensure NLTK punkt tokenizer is available
+nltk.download("punkt")
+
+# Try to load spaCy English model; download if missing
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    # download if not available
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
