@@ -1,5 +1,6 @@
 streamlit
 spacy
+spacy[lookups]==3.7.2
 nltk
 sentence-transformers
 scikit-learn
@@ -8,3 +9,5 @@ python-docx
 reportlab
 matplotlib
 numpy
+
+
