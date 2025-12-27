@@ -10,6 +10,14 @@ import re
 import numpy as np
 import nltk
 import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    # download if not available
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
